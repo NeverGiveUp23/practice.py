@@ -20,3 +20,15 @@ while guess_number < guess_limit:
         break
 else:
     print("Sorry you've failed")
+
+    
+    #more practice
+    
+    #greeting for the user
+greet = input("Hello, What is your name? ")
+#user will input city
+city = input(f"{greet}, What city did you grow up in? ")
+#user will inout pets name
+pet = input(f"Also, {greet} what is the name of your pet? ")
+#concat all data for the users band name
+print(f"{greet} your band name should be {city} {pet}")
